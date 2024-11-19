@@ -29,9 +29,3 @@ export function renderCheckoutHeader() {
 		document.querySelector('.js-checkout-header')
     	.innerHTML = checkoutHeaderHTML;
 }
-
-// export function updateCartQuantity() {
-// 	const cartQuantity = calculateCartQuantity();
-// 	document.querySelector('.js-return-to-home-link')
-// 	.innerHTML = `${cartQuantity} items`;
-// }

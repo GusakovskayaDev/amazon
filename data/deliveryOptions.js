@@ -30,9 +30,7 @@ function isWeekend(date) {
 }
 
 export function calculateDeliveryDate(deliveryOption) {
-  // const today = dayjs();
-  // const deliveryDate = today.add(deliveryOption.deliveryDays,'days');
-
+	
 	let remainingDays = deliveryOption.deliveryDays;
   let deliveryDate = dayjs();
   while (remainingDays > 0) {
